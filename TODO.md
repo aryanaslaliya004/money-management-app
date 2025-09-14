@@ -1,6 +1,11 @@
-# TODO: Run Money Management App
+# TODO: Make data permanent with MongoDB
 
-- [x] Create package.json for server and install dependencies (express, cors, body-parser)
-- [x] Install client dependencies
-- [x] Start the Express server on port 5000
-- [x] Start the React client on port 3002
+- [x] Install mongoose and dotenv
+- [x] Update server.js to use MongoDB for users and entries
+- [x] Update client App.js to use _id instead of id
+- [x] Create .env file with MONGODB_URI placeholder
+- [x] Update .gitignore to include .env
+- [x] Get MongoDB Atlas connection string (user provided)
+- [x] Update .env with the URI
+- [ ] Test locally with MongoDB
+- [ ] Deploy to Vercel with environment variables

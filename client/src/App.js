@@ -61,9 +61,9 @@ function MoneyManagement({ onLogout }) {
       </form>
       <ul className="entries-list">
         {entries.map(entry => (
-          <li key={entry.id} className={`entry ${entry.type}`}>
+          <li key={entry._id} className={`entry ${entry.type}`}>
             <span>{entry.type}</span><span>₹{entry.amount.toFixed(2)}</span><span>{entry.description}</span>
-            <button onClick={() => deleteEntry(entry.id)}>Delete</button>
+            <button onClick={() => deleteEntry(entry._id)}>Delete</button>
           </li>
         ))}
       </ul>
